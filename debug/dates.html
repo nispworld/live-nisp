@@ -1,7 +1,7 @@
 <html xmlns:stbl="http://nwalsh.com/xslt/ext/com.nwalsh.saxon.Table" xmlns:saxon="http://icl.com/saxon" xmlns:fox="http://xml.apache.org/fop/extensions"><meta charset="utf-8"><head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <title>Sort all records by date</title></head><body><h1>Sort all records by date</h1><p>Created on
-    Jun 22, 2017 - 14:48:26 using rev. v10.0-89-g515486b</p><p>These columns describes all standards in the database. The
+    Jul 13, 2017 - 07:23:18 using rev. v10.0-91-gddb1e99</p><p>These columns describes all standards in the database. The
    records are sorted by the attributes pubnum and org in order to be
    able to identify standards added multiple times.</p><ul><li><b>Rec</b> - The position of the record</li><li><b>Type</b> - Is this a <i>standard</i> (S), <i>serviceprofile</i> (SP), a <i>profile</i> (P) or <i>capabilityprofile</i> (CP)</li><li><b>ID</b> - What ID is assiciated with this record</li><li><b>Tag</b> - What Tag is associated with this record</li><li><b>Date</b> - The date of the <i>event</i></li><li><b>Flag</b> - The type of the <i>event</i> (added, changed or deleted)</li><li><b>RFCP</b> - What RFCP (if any) resulted in this event</li><li><b>Version</b> - The version of the TA, this event referes to</li></ul><p>N.B. There should only be one header for each version, otherwise
      there is a bug in the date or version field. It might also be a
@@ -64,7 +64,7 @@
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">662</td><td align="center">S</td><td>ietf-rfc7667&nbsp;</td><td>RFC 7667&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">663</td><td align="center">S</td><td>ietf-rfc7670&nbsp;</td><td>RFC 7670&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">667</td><td align="center">S</td><td>ietf-rfc7919&nbsp;</td><td>RFC 7919&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
-    </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1009</td><td align="center">S</td><td>iso-iec-15455&nbsp;</td><td>&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
+    </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1009</td><td align="center">S</td><td>iso-iec-15455&nbsp;</td><td>ISO version (W3 REC HTML 4.01)&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1210</td><td align="center">S</td><td>itu-e.123&nbsp;</td><td>ITU E.123&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1221</td><td align="center">S</td><td>itu-t-g.722.1-corr1-06.08&nbsp;</td><td>G.772.1 Corr. 1&nbsp;</td><td>2017-04-30</td><td>changed</td><td>9-6&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1431</td><td align="center">S</td><td>nso-stanag3377&nbsp;</td><td>STANAG 3377&nbsp;</td><td>2017-04-30</td><td>added</td><td>9-6&nbsp;
@@ -895,7 +895,6 @@
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1639</td><td align="center">S</td><td>oasis-wsdm-mows-1.1-spec-os-01&nbsp;</td><td>WSDM MOWS 1.1&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1640</td><td align="center">S</td><td>oasis-wsdm-muws1-1.1-spec-os-01&nbsp;</td><td>WSDM MUWS 1.1 Part 1&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1641</td><td align="center">S</td><td>oasis-wsdm-muws2-1.1-spec-os-01&nbsp;</td><td>WSDM MUWS 1.1 Part 2&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
-    </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1643</td><td align="center">S</td><td>oasis-wsfed-1.1&nbsp;</td><td>OASIS Web Services Federation Language (WS-Federation) 1.1&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1647</td><td align="center">S</td><td>oasis-wss-username-token-profile-1.0&nbsp;</td><td>WSS Username Token&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1649</td><td align="center">S</td><td>oasis-wss-v1.1-spec-cs-rel-token-profile&nbsp;</td><td>REL&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1650</td><td align="center">S</td><td>oasis-wss-v1.1-spec-errata-os-x509tokenprofile&nbsp;</td><td>WSS X.509 Cer. Token Profile&nbsp;</td><td>2017-01-26</td><td>deleted</td><td>9-21&nbsp;
