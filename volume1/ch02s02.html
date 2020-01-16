@@ -13,12 +13,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>2.2.&nbsp;STANAG</title>
+      <title>2.2.&nbsp;Interoperability Profiles</title>
       <link rel="stylesheet" type="text/css" href="../css/nisp.css">
       <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
       <meta name="keywords" content="NISP NATO Interoperability Standards Profiles, ADatP-34, Allied Data Procedure 34, STANAG 5524, STANAG, IP CaT, Interoperability Profiles Capability Team">
       <link rel="prev" href="ch02.html" title="Chapter&nbsp;2.&nbsp;Basic Concepts">
-      <link rel="next" href="ch02s03.html" title="2.3.&nbsp;Interoperability Profiles">
+      <link rel="next" href="ch02s03.html" title="2.3.&nbsp;Basic Standards Profile">
       <link rel="chapter" href="ch01.html" title="Chapter&nbsp;1.&nbsp;Introduction">
       <link rel="chapter" href="ch02.html" title="Chapter&nbsp;2.&nbsp;Basic Concepts">
       <link rel="chapter" href="ch03.html" title="Chapter&nbsp;3.&nbsp;Organization of the NISP Information">
@@ -33,12 +33,12 @@
       <link rel="appendix" href="apd.html" title="Appendix&nbsp;D.&nbsp;Detailed Changes from NISP Version 12 (L) to NISP Version 13 (M)">
       <link rel="appendix" href="ape.html" title="Appendix&nbsp;E.&nbsp;Processed RFCs">
       <meta name="author" content="Interoperability Capability Team (IP CaT)">
-      <meta name="pubsnummer" content="v12.3-5-g1203301">
+      <meta name="pubsnummer" content="v12.3-6-g2e6eb85">
       <meta http-equiv="Expires" content="0">
    </head>
    <body>
       <header id="header" class="hide-for-small">
-         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-5-g1203301</div>
+         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-6-g2e6eb85</div>
          <div class="nisp">NATO Interoperability Standards and Profiles</div>
          <div class="banner"></div>
       </header>
@@ -76,36 +76,79 @@
                </table>
                <hr>
             </div>
-            <section class="sect1" id="v1c-stanag">
+            <section class="sect1" id="v1c-profiles">
                <div class="titlepage">
                   <div>
                      <div>
-                        <h2 class="title">2.2.&nbsp;STANAG</h2>
+                        <h2 class="title">2.2.&nbsp;Interoperability Profiles</h2>
                      </div>
                   </div>
                </div>
-               <p>14. STANAGs are managed by the NATO Standardization Office (NSO). NATO STANAGs that are promulgated shall be considered mandatory
-                  only for NATO common-funded systems. If NISP references a STANAG, the obligation status for it is only informative. The NSO
-                  maintains the obligation status in their own process of standardization.
+               <p>14. Profiles define the specific use of standards at a service interoperability point (SIOP) in a given context. Profiles
+                  support prerequisites for programmes or projects and enable interoperability implementation and testing.
                </p>
-               <p>15. Some older STANAGs combine the agreement and the actual specification into one single document. NISP references the specification
-                  part.
+               <p>15. Interoperability Profiles provide combinations of standards and (sub)profiles for different CIS and identify essential
+                  profile elements including:
+                      
+                  <div class="itemizedlist">
+                     <ul class="itemizedlist">
+                        <li class="listitem">
+                           <p>Capability Requirements and other NAF architectural views</p>
+                        </li>
+                        <li class="listitem">
+                           <p>Characteristic protocols</p>
+                        </li>
+                        <li class="listitem">
+                           <p>Implementation options</p>
+                        </li>
+                        <li class="listitem">
+                           <p>Technical standards</p>
+                        </li>
+                        <li class="listitem">
+                           <p>Service Interoperability Points, and</p>
+                        </li>
+                        <li class="listitem">
+                           <p>The relationship with other profiles such as the system profile to which an application belongs.</p>
+                        </li>
+                     </ul>
+                  </div>
+                  
                </p>
-               <p>16. Some STANAGs and NATO Standards included in the NISP are not yet registered in the NSO database. To indicate this, in
-                  the NISP tables the publication number starts with "NATO-Expected" instead of "NATO" and in the index, they are grouped under
-                  "NATO Standardization Office (expected in the future)".
+               <p>16. The NISP now defines the <span class="bold"><strong>obligation status</strong></span> of profiles and standards as "mandatory" or "candidate".
+                      
+                  <div class="itemizedlist">
+                     <ul class="itemizedlist">
+                        <li class="listitem">
+                           <p><span class="bold"><strong>Mandatory</strong></span>: The application of standards or profiles is enforced for NATO common funded systems in planning, implementing and testing.
+                              Nations are required to use the NISP for developing capabilities that support NATO's missions (ie. NATO led operations, projects,
+                              programs, contracts and other related tasks). Nations are invited to do the same nationally to promote interoperabilty for
+                              federated systems and services. 
+                           </p>
+                        </li>
+                        <li class="listitem">
+                           <p><span class="bold"><strong>Candidate</strong></span>: 
+                              The application of a standard or profile shall only be used for the purpose of testing and programme / project planning. The
+                              standard or profile must have progressed to a stage in its life-cycle and is sufficiently mature and is expected to be approved
+                              by the standardization body in the foreseeable future. This implies, that from a planning perspective, the respective standard
+                              or profile is expected to become mandatory during execution of the programme. A candidate standard or profile should not stay
+                              in volume 3 for more than 3 years.
+                              
+                           </p>
+                        </li>
+                     </ul>
+                  </div>
+                  
                </p>
-               <p>17. For some STANAGs, the status in the NISP deviates from the status according to the NSO. For example, the NISP contains
-                  mandatory STANAGs that are Superseded or Cancelled according to the NSO. Also the NISP contains candidate STANAGs that are
-                  already Promulgated according to the NSO. For those STANAGs, this deviation is documented in a footnote. In general IP CaT
-                  strives to explicitly mandate the latest version of a standard in Volume 2. However, in Community of Interest (COI) profiles
-                  such as FMN 3, or the Archive profile, the CoI might choose, for purely technical reasons, to keep a superseded standard for
-                  a certain time-frame in their profile.
+               <p>17. Profiles shall be updated if referenced standards change. Profiles are dynamic entities by nature. NATO captures this
+                  dynamic situation by updating profiles once a year in the NISP. Profile owners are responsible for the versioning of their
+                  profiles. Profile reviews are required every 2 years by their owners to ensure their accuracy and continued relevance.
                </p>
-               <p>18. When a STANAG is not yet Promulgated, this is identified by including "Study" or "RD" (Ratification Draft) in the publication
-                  number. In general IP CaT strives to explicitly use promulgated standards especially in Volume 2. However, in Community of
-                  Interest (COI) profiles such as FMN, or the Archive profile, the CoI might choose, for purely technical reasons, to inject
-                  a Study or Ratification Draft of a standard in their profile. These should be limited to Volume 3.
+               <p>18. Proposed profiles (and standards) can be accepted as candidates in order to follow their developments and to decide if
+                  they can be promoted to mandatory standards and profiles. In some cases proposed standards and profiles can be readily accepted
+                  directly as mandatory.
+               </p>
+               <p>19. Interoperability Profiles can reference other Interoperability Profiles to allow for maximal reuse.</p>
+               <p>20. Further information and guidance on creation of profiles is available in <a class="xref" href="apa.html" title="Appendix&nbsp;A.&nbsp;Profile Guidance">Appendix&nbsp;A</a>.
                </p>
             </section>
             <div class="navfooter">
@@ -142,7 +185,7 @@
                <div class="copyright">Copyright &copy; NATO - OTAN 1998-2020 | <a href="../disclaimer.html">Disclaimer</a></div>
             </div>
          </div>
-         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-5-g1203301</div>
+         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-6-g2e6eb85</div>
       </footer>
    </body>
 </html>

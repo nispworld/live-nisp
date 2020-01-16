@@ -13,12 +13,12 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>2.4.&nbsp;Basic Standards Profile</title>
+      <title>2.4.&nbsp;Creating relationships to other concepts and planning objects within NATO</title>
       <link rel="stylesheet" type="text/css" href="../css/nisp.css">
       <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
       <meta name="keywords" content="NISP NATO Interoperability Standards Profiles, ADatP-34, Allied Data Procedure 34, STANAG 5524, STANAG, IP CaT, Interoperability Profiles Capability Team">
-      <link rel="prev" href="ch02s03.html" title="2.3.&nbsp;Interoperability Profiles">
-      <link rel="next" href="ch02s05.html" title="2.5.&nbsp;Creating relationships to other concepts and planning objects within NATO">
+      <link rel="prev" href="ch02s03.html" title="2.3.&nbsp;Basic Standards Profile">
+      <link rel="next" href="ch02s05.html" title="2.5.&nbsp;Criteria for selecting standards">
       <link rel="chapter" href="ch01.html" title="Chapter&nbsp;1.&nbsp;Introduction">
       <link rel="chapter" href="ch02.html" title="Chapter&nbsp;2.&nbsp;Basic Concepts">
       <link rel="chapter" href="ch03.html" title="Chapter&nbsp;3.&nbsp;Organization of the NISP Information">
@@ -32,13 +32,16 @@
       <link rel="appendix" href="apc.html" title="Appendix&nbsp;C.&nbsp;Changes from NISP Version 12 (L) to NISP Version 13 (M)">
       <link rel="appendix" href="apd.html" title="Appendix&nbsp;D.&nbsp;Detailed Changes from NISP Version 12 (L) to NISP Version 13 (M)">
       <link rel="appendix" href="ape.html" title="Appendix&nbsp;E.&nbsp;Processed RFCs">
+      <link rel="subsection" href="ch02s04.html#v1s-ABB" title="2.4.1.&nbsp;Architecture Building Block">
+      <link rel="subsection" href="ch02s04.html#v1s-FMNspirals" title="2.4.2.&nbsp;FMN Spiral Specifications">
+      <link rel="subsection" href="ch02s04.html#v1s-CPs" title="2.4.3.&nbsp;Capability Packages">
       <meta name="author" content="Interoperability Capability Team (IP CaT)">
-      <meta name="pubsnummer" content="v12.3-5-g1203301">
+      <meta name="pubsnummer" content="v12.3-6-g2e6eb85">
       <meta http-equiv="Expires" content="0">
    </head>
    <body>
       <header id="header" class="hide-for-small">
-         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-5-g1203301</div>
+         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-6-g2e6eb85</div>
          <div class="nisp">NATO Interoperability Standards and Profiles</div>
          <div class="banner"></div>
       </header>
@@ -76,27 +79,139 @@
                </table>
                <hr>
             </div>
-            <section class="sect1" id="d0e389">
+            <section class="sect1" id="v1s-otherConcepts">
                <div class="titlepage">
                   <div>
                      <div>
-                        <h2 class="title">2.4.&nbsp;Basic Standards Profile</h2>
+                        <h2 class="title">2.4.&nbsp;Creating relationships to other concepts and planning objects within NATO</h2>
                      </div>
                   </div>
                </div>
-               <p>26. Within the NISP, the &#8220;<span class="emphasis"><em>Basic Standards Profile</em></span>&#8221; specifies the technical, operational, and business standards that are generally applicable in the context of the Alliance
-                  and the NATO Enterprise. For a specific context, such as Federated Mission Networking, separate profiles may be defined that
-                  apply specifically to that context or related architectures. The standards that are cited may be NATO standards, or other
-                  agreed international and open standards.
+               <p>24. Different initiatives and organizations have developed new concepts to govern developments in the interoperability domain.
+                  These concepts have logical relationship to the NISP.
                </p>
-               <p>27. As there is no overarching alliance architecture, each standard is associated with elements of the C3 Taxonomy. A distinction
-                  must be made between applicability of a standard, and conformance to the standard. If a standard is applicable to a given
-                  C3 Taxonomy element, any architecture that implements such an element need not be fully conformant with the standard. The
-                  degree of conformance may be judged based on the specific context of the project. For example, to facilitate information exchange
-                  between C2 and logistics systems it may be sufficient to implement only a subset of concepts as defined in JC3IEDM (STANAG
-                  5525).
-               </p>
-               <p>28. The &#8220;Basic Standards Profile&#8221; contains &#8220;agreed&#8221; as well as &#8220;candidate&#8221; standards.</p>
+               <section class="sect2" id="v1s-ABB">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h3 class="title">2.4.1.&nbsp;Architecture Building Block</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <p>25. An Architecture Building Block (ABB) is a constituent of the architecture model that describes a single aspect of the
+                     overall model
+                     <a href="#ftn.d0e397" class="footnote"><sup class="footnote" id="d0e397">[3]</sup></a>.
+                  </p>
+                  <section class="sect3" id="v1c-abbc">
+                     <div class="titlepage">
+                        <div>
+                           <div>
+                              <h4 class="title">2.4.1.1.&nbsp;Characteristics</h4>
+                           </div>
+                        </div>
+                     </div>
+                     <p>26. ABBs:
+                        
+                        <div class="itemizedlist">
+                           <ul class="itemizedlist">
+                              <li class="listitem">
+                                 <p>Capture architecture requirements; e.g., business, data, application, and technology requirements</p>
+                              </li>
+                              <li class="listitem">
+                                 <p>Direct and guide the development of Solution Building Blocks</p>
+                              </li>
+                           </ul>
+                        </div>
+                        
+                     </p>
+                  </section>
+                  <section class="sect3" id="v1c-abbsc">
+                     <div class="titlepage">
+                        <div>
+                           <div>
+                              <h4 class="title">2.4.1.2.&nbsp;Specification Content</h4>
+                           </div>
+                        </div>
+                     </div>
+                     <p>27. ABB specifications include the following as a minimum:
+                        
+                        <div class="itemizedlist">
+                           <ul class="itemizedlist">
+                              <li class="listitem">
+                                 <p>Fundamental functionality and attributes: semantic, unambiguous, including security capability and manageability</p>
+                              </li>
+                              <li class="listitem">
+                                 <p>Interfaces: chosen set, supplied</p>
+                              </li>
+                              <li class="listitem">
+                                 <p>Interoperability and relationship with other building blocks</p>
+                              </li>
+                              <li class="listitem">
+                                 <p>Dependent building blocks with required functionality and named user interfaces</p>
+                              </li>
+                              <li class="listitem">
+                                 <p>Map to business/organizational entities and policies</p>
+                              </li>
+                           </ul>
+                        </div>
+                        
+                     </p>
+                  </section>
+               </section>
+               <section class="sect2" id="v1s-FMNspirals">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h3 class="title">2.4.2.&nbsp;FMN Spiral Specifications</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <p>28. Federated Mission Networking (FMN) Spiral<a href="#ftn.d0e441" class="footnote"><sup class="footnote" id="d0e441">[4]</sup></a>  Specifications encompass "an evolutionary cycle that will raise the level of maturity of federated mission networking capabilities
+                     over time".
+                  </p>
+                  <p>29. The FMN spiral specification contain the following sections
+                         
+                     <div class="itemizedlist">
+                        <ul class="itemizedlist">
+                           <li class="listitem">
+                              <p>architecture</p>
+                           </li>
+                           <li class="listitem">
+                              <p>instructions</p>
+                           </li>
+                           <li class="listitem">
+                              <p>profiles, and</p>
+                           </li>
+                           <li class="listitem">
+                              <p>requirements specifications.</p>
+                           </li>
+                        </ul>
+                     </div>
+                     The Mandatory and Candidate FMN Spiral Profiles, in context for FMN Affiliates, are listed in the NISP Volumes 2 and 3.
+                  </p>
+               </section>
+               <section class="sect2" id="v1s-CPs">
+                  <div class="titlepage">
+                     <div>
+                        <div>
+                           <h3 class="title">2.4.3.&nbsp;Capability Packages</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <p>30. Profiles will be referenced in the NISP for specified NATO Common Funded Systems or Capability Packages and may include
+                     descriptions of interfaces to National Systems where appropriate.
+                  </p>
+               </section>
+               <div class="footnotes"><br><hr class="footnote-hr">
+                  <div id="ftn.d0e397" class="footnote">
+                     <p><a href="#d0e397" class="para"><sup class="para">[3] </sup></a>TOGAF 9.1 Specification
+                     </p>
+                  </div>
+                  <div id="ftn.d0e441" class="footnote">
+                     <p><a href="#d0e441" class="para"><sup class="para">[4] </sup></a>Annex B TO Volume I - Implementation Overview, NATO FMN Implementation Plan v4.0 dated: 23 September 2014, Terms and Definitions
+                     </p>
+                  </div>
+               </div>
             </section>
             <div class="navfooter">
                <hr>
@@ -132,7 +247,7 @@
                <div class="copyright">Copyright &copy; NATO - OTAN 1998-2020 | <a href="../disclaimer.html">Disclaimer</a></div>
             </div>
          </div>
-         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-5-g1203301</div>
+         <div class="nisp-lifecycle-stage">NISP DRAFT - rev. v12.3-6-g2e6eb85</div>
       </footer>
    </body>
 </html>
