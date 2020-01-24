@@ -1,13 +1,14 @@
 <html xmlns:stbl="http://nwalsh.com/xslt/ext/com.nwalsh.saxon.Table" xmlns:saxon="http://icl.com/saxon" xmlns:fox="http://xml.apache.org/fop/extensions"><meta charset="utf-8"><head>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <title>Sort all records by date</title></head><body><h1>Sort all records by date</h1><p>Created on
-    Jan 24, 2020 - 12:20:38 using rev. v12.3-15-g5d0e2ad</p><p>These columns describes all standards/coverdocs in the database. The
+    Jan 24, 2020 - 13:47:32 using rev. v12.3-16-g8f236c0</p><p>These columns describes all standards/coverdocs in the database. The
    records are sorted by the attributes pubnum and org in order to be
    able to identify standards/coverdocs added multiple times.</p><ul><li><b>Rec</b> - The position of the record</li><li><b>Type</b> - Is this a <i>standard</i> (S), <i>serviceprofile</i> (SP), a <i>profile</i> (P) or <i>capabilityprofile</i> (CP)</li><li><b>ID</b> - What ID is assiciated with this record</li><li><b>Tag</b> - What Tag is associated with this record</li><li><b>Date</b> - The date of the <i>event</i></li><li><b>Flag</b> - The type of the <i>event</i> (added, changed or deleted)</li><li><b>RFCP</b> - What RFCP (if any) resulted in this event</li><li><b>Version</b> - The version of NISP, this event referes to</li></ul><p>N.B. There should only be one header for each version, otherwise
      there is a bug in the date or version field. It might also be a
      good idea to check the first and last record in each version, to
      check e.g. that we have not specified a month larger than 12 or a
-     day larger than 31.</p><table border="1" width="100%"><tr><td><b>Rec</b></td><td><b>Type</b></td><td><b>Id</b></td><td><b>Tag</b></td><td><b>Date</b></td><td><b>Flag</b></td><td><b>RFCP</b></td><td><b>Version</b></td></tr><tr><td colspan="8" bgcolor="#00c0f2"><b>Version 13.0</b></td></tr><tr><td align="right">1857</td><td align="center">S</td><td>opengroup-c197&nbsp;</td><td>Archimate 3.1 Specification&nbsp;</td><td>2020-02-05</td><td>added</td><td>12-022&nbsp;
+     day larger than 31.</p><table border="1" width="100%"><tr><td><b>Rec</b></td><td><b>Type</b></td><td><b>Id</b></td><td><b>Tag</b></td><td><b>Date</b></td><td><b>Flag</b></td><td><b>RFCP</b></td><td><b>Version</b></td></tr><tr><td colspan="8" bgcolor="#00c0f2"><b>Version 13.0</b></td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2020-02-24</td><td>changed</td><td>12-033&nbsp;
+    </td><td align="center">13.0&nbsp;</td></tr><tr><td align="right">1857</td><td align="center">S</td><td>opengroup-c197&nbsp;</td><td>Archimate 3.1 Specification&nbsp;</td><td>2020-02-05</td><td>added</td><td>12-022&nbsp;
     </td><td align="center">13.0&nbsp;</td></tr><tr><td align="right">2356</td><td align="center">SP</td><td>bsp-Track_Services&nbsp;</td><td>NISP BSSP for Track_Services&nbsp;</td><td>2020-01-22</td><td>changed</td><td>12-30&nbsp;
     </td><td align="center">13.0&nbsp;</td></tr><tr><td align="right">34</td><td align="center">S</td><td>cceb-acp113ad&nbsp;</td><td>ACP 113(AD)&nbsp;</td><td>2020-01-21</td><td>changed</td><td>12-032&nbsp;
     </td><td align="center">13.0&nbsp;</td></tr><tr><td align="right">43</td><td align="center">S</td><td>cceb-acp133c&nbsp;</td><td>ACP 133(C)&nbsp;</td><td>2020-01-21</td><td>changed</td><td>12-032&nbsp;
@@ -2421,7 +2422,7 @@
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1318</td><td align="center">S</td><td>microsoft-smb&nbsp;</td><td>SMB (Microsoft)&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1321</td><td align="center">S</td><td>microsoft-winsock2&nbsp;</td><td>WinSock&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1326</td><td align="center">S</td><td>mip-bl4&nbsp;</td><td>MIP BL 4&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
-    </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>mip-jc3iedm&nbsp;</td><td>MIP JC3IEDM BL 3.1.4&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
+    </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1328</td><td align="center">S</td><td>mip-mim2.0&nbsp;</td><td>MIM 2.0&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1340</td><td align="center">S</td><td>nato-ac322-sc3-d2007-0003-rev5&nbsp;</td><td>SMADEF XML Rel.3.0.0&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
     </td><td align="center">10.0&nbsp;</td></tr><tr><td align="right">1356</td><td align="center">S</td><td>nato-acp190b-nato-supp-1b&nbsp;</td><td>ACP 190 (B) NATO Supplement 1B&nbsp;</td><td>2017-01-14</td><td>changed</td><td>9-19&nbsp;
@@ -3213,7 +3214,7 @@
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1057</td><td align="center">S</td><td>iso-iec-29500-4-2012&nbsp;</td><td>MS Office Migration&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1073</td><td align="center">S</td><td>iso-iec-7501&nbsp;</td><td>MRP&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1326</td><td align="center">S</td><td>mip-bl4&nbsp;</td><td>MIP BL 4&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
-    </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>mip-jc3iedm&nbsp;</td><td>MIP JC3IEDM BL 3.1.4&nbsp;</td><td>2013-10-24</td><td>changed</td><td>7-27&nbsp;
+    </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2013-10-24</td><td>changed</td><td>7-27&nbsp;
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1686</td><td align="center">S</td><td>nso-stanag5526ed1&nbsp;</td><td>MIM&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">1688</td><td align="center">S</td><td>nso-stanag5528ed1&nbsp;</td><td>STANAG 5528 Ed 1&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
     </td><td align="center">8.0&nbsp;</td></tr><tr><td align="right">2062</td><td align="center">S</td><td>w3c-timezone&nbsp;</td><td>Timezone&nbsp;</td><td>2013-10-24</td><td>added</td><td>7-27&nbsp;
@@ -4807,7 +4808,7 @@
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1028</td><td align="center">S</td><td>iso-iec-15444-9&nbsp;</td><td>JPEG 2000: Interactivity&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1252</td><td align="center">S</td><td>itu-t-g.726&nbsp;</td><td>ADPCM&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1276</td><td align="center">S</td><td>itu-t-t.30&nbsp;</td><td>ITU T.30&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
-    </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>mip-jc3iedm&nbsp;</td><td>MIP JC3IEDM BL 3.1.4&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
+    </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1550</td><td align="center">S</td><td>nso-stanag4484ed2&nbsp;</td><td>STANAG 4484 ed.2&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1575</td><td align="center">S</td><td>nso-stanag4575ed3&nbsp;</td><td>NADSI ed. 3&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
     </td><td align="center">2.0&nbsp;</td></tr><tr><td align="right">1633</td><td align="center">S</td><td>nso-stanag5000ed3&nbsp;</td><td>STANAG 5000 Ed 3&nbsp;</td><td>2007-08-02</td><td>changed</td><td>&nbsp;
@@ -4915,7 +4916,7 @@
     </td><td align="center">1.0&nbsp;</td></tr><tr><td align="right">1590</td><td align="center">S</td><td>nso-stanag4609ed3&nbsp;</td><td>DMIS&nbsp;</td><td>2007-01-25</td><td>added</td><td>7-9&nbsp;
     </td><td align="center">1.0&nbsp;</td></tr><tr><td align="right">1368</td><td align="center">S</td><td>nato-c2iedm&nbsp;</td><td>C2 Information Exchange Data Model - (C2IEDM)&nbsp;</td><td>2006-11-19</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
     </td><td align="center">1.0&nbsp;</td></tr><tr><td align="right">263</td><td align="center">S</td><td>ietf-rfc2058&nbsp;</td><td>RFC 2058: Radius&nbsp;</td><td>2006-10-23</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
-    </td><td align="center">1.0&nbsp;</td></tr><tr><td colspan="8" bgcolor="#00c0f2"><b>Version 0.7</b></td></tr><tr><td align="right">1327</td><td align="center">S</td><td>mip-jc3iedm&nbsp;</td><td>MIP JC3IEDM BL 3.1.4&nbsp;</td><td>2005-12-01</td><td>changed</td><td>6-21&nbsp;
+    </td><td align="center">1.0&nbsp;</td></tr><tr><td colspan="8" bgcolor="#00c0f2"><b>Version 0.7</b></td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2005-12-01</td><td>changed</td><td>6-21&nbsp;
     </td><td align="center">0.7&nbsp;</td></tr><tr><td align="right">702</td><td align="center">S</td><td>iho-s-57&nbsp;</td><td>S-57&nbsp;</td><td>2005-11-22</td><td>added</td><td>6-16&nbsp;
     </td><td align="center">0.7&nbsp;</td></tr><tr><td align="right">815</td><td align="center">S</td><td>iso-19107&nbsp;</td><td>Spatial Schema&nbsp;</td><td>2005-11-22</td><td>changed</td><td>6-16&nbsp;
     </td><td align="center">0.7&nbsp;</td></tr><tr><td align="right">816</td><td align="center">S</td><td>iso-19109&nbsp;</td><td>Application Schema&nbsp;</td><td>2005-11-22</td><td>changed</td><td>6-16&nbsp;
@@ -6410,7 +6411,7 @@
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">825</td><td align="center">S</td><td>iso-19136&nbsp;</td><td>GML&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">929</td><td align="center">S</td><td>iso-iec-10918-4&nbsp;</td><td>JPEG 2000 in NITFS&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1276</td><td align="center">S</td><td>itu-t-t.30&nbsp;</td><td>ITU T.30&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
-    </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>mip-jc3iedm&nbsp;</td><td>MIP JC3IEDM BL 3.1.4&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
+    </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1327</td><td align="center">S</td><td>nato-stanag5525ed1&nbsp;</td><td>MIP JC3IEDM&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1407</td><td align="center">S</td><td>nato-wp14-3_ed5.0_20020318&nbsp;</td><td>ARM&nbsp;</td><td>2002-10-10</td><td>added</td><td bgcolor="#FFFEA0">&nbsp;
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1683</td><td align="center">S</td><td>nso-stanag5523ed1&nbsp;</td><td>STANAG 5523 Ed 1&nbsp;</td><td>2002-10-10</td><td>changed</td><td>&nbsp;
     </td><td align="center">0.4&nbsp;</td></tr><tr><td align="right">1799</td><td align="center">S</td><td>odmg-isbn1-55860-647-5&nbsp;</td><td>ODMG 3.0&nbsp;</td><td>2002-10-10</td><td>changed</td><td>&nbsp;
